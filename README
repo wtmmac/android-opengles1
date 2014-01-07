@@ -1,0 +1,20 @@
+This is a simple, bare bones, Android native OpenGL ES 1.0 project.
+
+A GLSurfaceView object manages the Java-side Activity lifecycle, while 
+on the native C++ side, the native OpenGL ES 1.0 API is used to render 
+3D graphics.
+
+Android has a sample app "hello-gl2" which does something similar for 
+OpenGL ES 2.0, but this uses OpenGL ES 1.0.  I also made it slightly 
+fancier - a multi-color cube is spinning, and touching the screen 
+alternatively stops and starts the rotation.
+
+
+Code in the jni directory is under a BSD-style license and is based off 
+code from Jetro Lauha's San Angeles Observation project, as well as code 
+by Dennis Sheil.
+
+The rest of the code is released under Apache License, Version 2.0.  
+Some of that code is from the Android Open Source Project, some is from 
+Dennis Sheil.
+
